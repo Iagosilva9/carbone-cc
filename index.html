@@ -14,12 +14,12 @@
 <meta property="og:title" content="Carbone Cycling Club | Ciclismo limpo, com estilo e companhia">
 <meta property="og:description" content="Assessoria esportiva e cultura de ciclismo com bandeira antidoping, estilo de rua e espírito de grupo.">
 <meta property="og:url" content="https://carbonecyclingclub.com.br/">
-<meta property="og:image" content="https://carbonecyclingclub.com.br/img/f4.jpg">
+<meta property="og:image" content="https://carbonecyclingclub.com.br/img/atleta.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Carbone Cycling Club">
 <meta name="twitter:description" content="Ciclismo limpo, com estilo e companhia.">
-<meta name="twitter:image" content="https://carbonecyclingclub.com.br/img/f4.jpg">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsOrganization","name":"Carbone Cycling Club","alternateName":"Carbone.CC","url":"https://carbonecyclingclub.com.br/","logo":"https://carbonecyclingclub.com.br/img/logo.jpg","sport":"Ciclismo","description":"Assessoria esportiva e cultura de ciclismo com bandeira antidoping.","sameAs":["https://www.instagram.com/carbone.cc/"],"contactPoint":{"@type":"ContactPoint","telephone":"+55-11-98202-5732","contactType":"assessoria esportiva","availableLanguage":"pt-BR"}}</script>
+<meta name="twitter:image" content="https://carbonecyclingclub.com.br/img/atleta.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SportsOrganization","name":"Carbone Cycling Club","alternateName":"Carbone.CC","url":"https://carbonecyclingclub.com.br/","logo":"https://carbonecyclingclub.com.br/img/logo.jpg","sport":"Ciclismo","description":"Assessoria esportiva e cultura de ciclismo com bandeira antidoping.","sameAs":["https://www.instagram.com/carbone.cc/","https://www.strava.com/clubs/1853313"],"contactPoint":{"@type":"ContactPoint","telephone":"+55-11-98202-5732","contactType":"assessoria esportiva","availableLanguage":"pt-BR"}}</script>
 
 <link rel="icon" href="img/logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,7 +75,7 @@ nav ul a:hover{color:var(--text)}
 .facts small{color:var(--muted);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}
 .frame{position:relative;justify-self:center;width:min(430px,100%)}
 .frame::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:2px solid var(--red);border-radius:var(--radius)}
-.frame img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius);filter:contrast(1.06) saturate(.92)}
+.frame img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%;border-radius:var(--radius);filter:contrast(1.06) saturate(.92)}
 .frame .cap{position:absolute;left:16px;bottom:16px;z-index:2;background:rgba(0,0,0,.65);backdrop-filter:blur(8px);padding:8px 14px;border-radius:999px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase}
 @media(max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:56px}.frame{margin-right:18px}}
 
@@ -129,6 +129,10 @@ nav ul a:hover{color:var(--text)}
 .gallery div:nth-child(5){grid-column:span 2}
 @media(max-width:640px){.gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:160px}}
 
+/* strava */
+.strava{background:var(--carbon-2);border-block:1px solid var(--line)}
+.strava .grid2{align-items:center}
+.strava-img{width:100%;max-width:380px;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius);justify-self:center;border:1px solid var(--line)}
 /* midia */
 .press{background:var(--carbon-2);border-block:1px solid var(--line);padding:72px 0}
 .press a.item{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);transition:.25s}
@@ -164,6 +168,7 @@ footer a:hover{color:var(--red-2)}
       <li><a href="#antidoping">Antidoping</a></li>
       <li><a href="#simbolo">Símbolo</a></li>
       <li><a href="#universo">Universo</a></li>
+      <li><a href="#strava">Strava</a></li>
       <li><a href="#galeria">Galeria</a></li>
     </ul></nav>
     <a class="btn btn-primary" href="#contato">Assessoria</a>
@@ -188,8 +193,8 @@ footer a:hover{color:var(--red-2)}
       </div>
     </div>
     <figure class="frame">
-      <img src="img/f4.jpg" alt="Pelotão do Carbone Cycling Club parado em um cruzamento ao amanhecer">
-      <figcaption class="cap">Pelotão Carbone.CC</figcaption>
+      <img src="img/atleta.jpg" alt="Atleta do Carbone Cycling Club em ação com o uniforme do clube">
+      <figcaption class="cap">Carbone.CC em ação</figcaption>
     </figure>
   </div>
 </section>
@@ -251,7 +256,7 @@ footer a:hover{color:var(--red-2)}
       <article class="card reveal"><div class="n">Assessoria</div><h3>Treino com método</h3><p>Acompanhamento esportivo para quem quer evoluir com saúde e sem atalhos.</p></article>
       <article class="card reveal"><div class="n">Cyclewear</div><h3>Coleção exclusiva</h3><p>Roupas desenhadas por um time de designers, com a estética de rua da marca.</p></article>
       <article class="card reveal"><div class="n">Viagens</div><h3>Roteiros de pedal</h3><p>Experiências para pedalar em boa companhia, longe da rotina.</p></article>
-      <article class="card reveal"><div class="n">Comunidade</div><h3>Grupo de 70 membros</h3><p>Pedais, conversa e amizade. A turma que faz o clube acontecer.</p></article>
+      <article class="card reveal"><div class="n">Comunidade</div><h3>Grupo de 70 membros</h3><p>Pedais, conversa e amizade, com o clube também no Strava.</p></article>
     </div>
   </div>
 </section>
@@ -263,12 +268,24 @@ footer a:hover{color:var(--red-2)}
       <h2>Na estrada</h2>
     </div>
     <div class="gallery reveal">
-      <div><img src="img/f3.jpg" alt="Dois ciclistas do clube pedalando em rodovia" loading="lazy"></div>
-      <div><img src="img/f4.jpg" alt="Pelotão em cruzamento urbano" loading="lazy"></div>
-      <div><img src="img/f2.jpg" alt="Pedal do Carbone Cycling Club" loading="lazy"></div>
-      <div><img src="img/f1.jpg" alt="Ciclistas do clube em ação" loading="lazy"></div>
-      <div><img src="img/f5.jpg" alt="Atleta do clube comemorando na linha de chegada" loading="lazy"></div>
+      <div><img src="img/grupo-avenida.jpg" alt="Grupo do Carbone Cycling Club reunido em avenida de São Paulo" loading="lazy"></div>
+      <div><img src="img/kit-ccc.jpg" alt="Detalhe do uniforme C.C.C. do Carbone Cycling Club" loading="lazy"></div>
+      <div><img src="img/branca-1.jpg" alt="Ciclista com a camisa branca CCC do clube" loading="lazy"></div>
+      <div><img src="img/kit-bw.jpg" alt="Bermudas do clube em preto e branco" loading="lazy"></div>
+      <div><img src="img/branca-2.jpg" alt="Ciclista de camisa branca CCC ao nascer do sol" loading="lazy" style="object-position:50% 30%"></div>
     </div>
+  </div>
+</section>
+
+<section class="strava" id="strava">
+  <div class="wrap grid2">
+    <div class="reveal">
+      <p class="eyebrow">Strava</p>
+      <h2>Pedale com a<br>gente no Strava</h2>
+      <p>O Carbone Cycling Club tem clube oficial no Strava. Entre para acompanhar as atividades da turma, comparar treinos e fazer parte da comunidade.</p>
+      <div class="cta" style="margin-top:28px"><a class="btn btn-primary" href="https://www.strava.com/clubs/1853313" target="_blank" rel="noopener">Entrar no clube no Strava ↗</a></div>
+    </div>
+    <img class="strava-img reveal" src="img/kit-bw.jpg" alt="Uniformes do Carbone Cycling Club e meias do Strava" loading="lazy">
   </div>
 </section>
 
@@ -299,7 +316,7 @@ footer a:hover{color:var(--red-2)}
 <footer>
   <div class="wrap">
     <span>© <span id="y"></span> Carbone Cycling Club. Todos os direitos reservados.</span>
-    <span><a href="https://wa.me/5511982025732" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://www.instagram.com/carbone.cc/" target="_blank" rel="noopener">Instagram</a></span>
+    <span><a href="https://wa.me/5511982025732" target="_blank" rel="noopener">WhatsApp</a> · <a href="https://www.strava.com/clubs/1853313" target="_blank" rel="noopener">Strava</a> · <a href="https://www.instagram.com/carbone.cc/" target="_blank" rel="noopener">Instagram</a></span>
   </div>
 </footer>
 
